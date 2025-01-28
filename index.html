@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Firma zajmująca się odnawialnymi źródłami energii: fotowoltaika, pompy ciepła, magazyny energii.">
-    <title>OZE - Czysta Energia</title>
+    <title>Systemy Grzewcze Szczecin</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="ikona/p1.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 </head>
 <body>
     <!-- Nagłówek -->
     <header class="header">
         <div class="container">
-            <h1 class="logo">Czysta Energia</h1>
+            <h1 class="logo">Systemy Grzewcze Szczecin</h1>
             <nav class="nav">
                 <ul>
                     <li><a href="#start">Start</a></li>
@@ -23,18 +26,14 @@
             </nav>
         </div>
     </header>
-
-    <!-- Sekcja główna -->
-    <section id="start" class="hero">
-        <div class="hero-content">
-            <h2>Zainwestuj w czystą energię</h2>
-            <p>Zmieniaj świat na lepsze dzięki odnawialnym źródłom energii.</p>
-            <a href="#oferta" class="btn">Dowiedz się więcej</a>
+    <section id="main" class="main-image" style="background-image: url('sg/s2.png'); background-size: cover; background-position: center; height: 100vh; margin-top: 0;">
+        <div class="container" style="text-align: center;">
+            <a href="#firmy" class="btn">poznaj naszych partnerów</a>
         </div>
     </section>
 
     <!-- O nas -->
-    <section id="o-nas" class="about">
+    <section id="o-nas" class="about" style="margin-top: 0;">
         <div class="container">
             <h2>O nas</h2>
             <p>Jesteśmy firmą specjalizującą się w instalacjach odnawialnych źródeł energii. Naszym celem jest wspieranie zrównoważonego rozwoju poprzez nowoczesne technologie.</p>
@@ -52,95 +51,198 @@
     </section>
 
     <!-- Oferta -->
-    <section id="oferta" class="offer">
+    <section id="oferta" class="offer" style="margin-top: 0;">
         <div class="container">
             <h2>Nasza oferta</h2>
             <div class="offer-items">
                 <div class="offer-item">
                     <h3>Fotowoltaika</h3>
                     <p>Instalacje dla domów i firm.</p>
+                    <a href="https://www.hewalex.pl/oferta/fotowoltaika/" class="btn">Dowiedz się więcej</a>
                 </div>
                 <div class="offer-item">
                     <h3>Pompy ciepła</h3>
                     <p>Ekologiczne systemy grzewcze.</p>
+                    <a href="https://dedietrich.pl/pompy-ciepla/" class="btn">Dowiedz się więcej</a>
                 </div>
                 <div class="offer-item">
                     <h3>Magazyny energii</h3>
                     <p>Nowoczesne systemy magazynowania energii.</p>
+                    <a href="https://www.gov.pl/web/klimat/magazyny-energii" class="btn">Dowiedz się więcej</a>
+                </div>
+                <div class="offer-item">
+                    <h3>Kotły gazowe</h3>
+                    <p>Wysokowydajne i ekologiczne kotły gazowe dla domów i firm.</p>
+                    <a href="https://www.termet.com.pl/kategoria/kotly-gazowe-kondensacyjne/2" class="btn">Dowiedz się więcej</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Firmy -->
-    <section id="firmy" class="companies">
+    <section id="firmy" class="companies" style="margin-top: 0;">
         <div class="container">
-            <h2>Firmy, które montujemy i serwisujemy</h2>
-            <div class="company-list">
-                <div class="company-item">
-                    <img src="images/berreta-logo.png" alt="Berreta Logo">
-                    <h3>Berreta</h3>
-                    <p>Berreta oferuje zaawansowane rozwiązania grzewcze i chłodnicze, które są ekologiczne i wydajne.</p>
-                </div>
-                <div class="company-item">
-                    <img src="images/ferroli-logo.png" alt="Ferroli Logo">
-                    <h3>Ferroli</h3>
-                    <p>Ferroli to lider w produkcji kotłów i systemów grzewczych, znany z innowacyjnych technologii.</p>
-                </div>
-                <div class="company-item">
-                    <img src="images/termet-logo.png" alt="Termet Logo">
-                    <h3>Termet</h3>
-                    <p>Termet specjalizuje się w produkcji kotłów gazowych i urządzeń grzewczych o wysokiej efektywności.</p>
-                </div>
-                <div class="company-item">
-                    <img src="zdjęcia/1.png" alt="Fondital Logo">
+            <h2>Firmy które montujemy</h2>
+            <div class="company-list" style="display: flex; flex-wrap: wrap; gap: 30px;">
+                <div class="company-item" style="flex: 1 1 calc(33.333% - 30px); box-sizing: border-box;">
+                    <a href="https://www.fondital.com/pl/pl/" target="_blank">
+                        <img src="zdjęcia/1.png" alt="Fondital Logo" style="width: 100%; height: auto;">
+                    </a>
                     <h3>Fondital</h3>
                     <p>Fondital oferuje szeroką gamę produktów grzewczych, w tym kotły, grzejniki i systemy solarne.</p>
                 </div>
-                <div class="company-item">
-                    <img src="images/wolf-logo.png" alt="Wolf Logo">
-                    <h3>Wolf</h3>
-                    <p>Wolf to renomowany producent systemów grzewczych i wentylacyjnych, znany z niezawodności i jakości.</p>
+                <div class="company-item" style="margin-bottom: 100px;">
+                    <a href="https://beretta.pl/" target="_blank">
+                        <img src="zdjęcia/5.png" alt="Berreta Logo">
+                    </a>
+                    <h3>Berreta</h3>
+                    <p>Berreta oferuje zaawansowane rozwiązania grzewcze i chłodnicze, które są ekologiczne i wydajne.</p>
+                </div>
+                <div class="company-item" style="margin-bottom: 100px;">
+                    <a href="https://www.termet.com.pl/" target="_blank">
+                        <img src="zdjęcia/4.png" alt="Termet Logo">
+                    </a>
+                    <h3>Termet</h3>
+                    <p>Termet specjalizuje się w produkcji kotłów gazowych i urządzeń grzewczych o wysokiej efektywności.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Realizacje -->
-    <section id="realizacje" class="projects">
+    <section id="realizacje" class="projects" style="margin-top: 0;">
         <div class="container">
             <h2>Nasze realizacje</h2>
             <p>Zaufaj naszym doświadczeniom i zobacz nasze poprzednie projekty.</p>
-            <div class="gallery">
-                <img src="realizacja1.jpg" alt="Realizacja 1">
-                <img src="realizacja2.jpg" alt="Realizacja 2">
-                <img src="realizacja3.jpg" alt="Realizacja 3">
+            <div class="gallery slider" style="text-align: center;">
+                <div><img src="rea/r1.jpg" alt="Realizacja 1" style="margin: 0 auto;"></div>
+                <div><img src="rea/r2.jpg" alt="Realizacja 2" style="margin: 0 auto;"></div>
+                <div><img src="rea/r3.jpg" alt="Realizacja 3" style="margin: 0 auto;"></div>
+                <div><img src="rea/r4.jpg" alt="Realizacja 4" style="margin: 0 auto;"></div>
             </div>
         </div>
     </section>
 
     <!-- Kontakt -->
-    <section id="kontakt" class="contact">
+    <section id="kontakt" class="contact" style="margin-top: 0;">
         <div class="container">
             <h2>Kontakt</h2>
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Imię i nazwisko" required>
-                <input type="email" name="email" placeholder="E-mail" required>
-                <textarea name="message" placeholder="Twoja wiadomość" required></textarea>
-                <button type="submit">Wyślij</button>
-            </form>
-            <div class="contact-info">
-                <p>Email: kontakt@czystaenergia.pl</p>
-                <p>Telefon: +48 123 456 789</p>
+            <div class="contact-content" style="display: flex; flex-wrap: wrap; gap: 30px;">
+                <div class="contact-form" style="flex: 1 1 50%; box-sizing: border-box;">
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Imię i nazwisko" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <textarea name="message" placeholder="Twoja wiadomość" required></textarea>
+                        <button type="submit">Wyślij</button>
+                    </form>
+                    <div class="contact-info">
+                        <p>Email: kontakt@czystaenergia.pl</p>
+                        <p>Telefon: +48 123 456 789</p>
+                    </div>
+                </div>
+                <div class="contact-map" style="flex: 1 1 50%; box-sizing: border-box;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.123456789!2d14.552123456!3d53.428123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4701234567890!2sYour%20Company%20Location!5e0!3m2!1sen!2spl!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Partnerzy -->
+    <section id="partnerzy" class="partners" style="margin-top: 0; margin-bottom: 100px;">
+        <div class="container">
+            <h2 style="text-align: center;">Nasi partnerzy</h2>
+            <div class="partner-logos slider" style="text-align: center;">
+                <div><img src="firmy/1.jpg" alt="Fondital Logo" style="margin: 0 auto;"></div>
+                <div><img src="firmy/2.jpg" alt="Partner 2 Logo" style="margin: 0 auto; width: 20%; height: auto;"></div>
+                <div><img src="firmy/3.jpg" alt="Partner 3 Logo" style="margin: 0 auto;"></div>
+                <div><img src="firmy/4.jpg" alt="Termet Logo" style="margin: 0 auto;"></div>
+                <div><img src="firmy/5.jpg" alt="Berreta Logo" style="margin: 0 auto; width: 20%; height: auto;"></div>
+                <div><img src="firmy/6.jpg" alt="Partner 6 Logo" style="margin: 0 auto;"></div>
+                <div><img src="firmy/7.jpg" alt="Partner 7 Logo" style="margin: 0 auto;"></div>
+                <div><img src="firmy/8.jpg" alt="Partner 8 Logo" style="margin: 0 auto; width: 20%; height: auto;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opinie naszych klientów -->
+    <section id="opinie" class="testimonials" style="margin-top: 250px;">
+        <div class="container">
+            <h2 style="text-align: center;">Opinie naszych klientów</h2>
+            <div class="testimonials-slider slider" style="text-align: center;">
+                <div>
+                    <p>"Firma Czysta Energia wykonała świetną robotę. Polecam ich usługi!"</p>
+                    <p>- Anna Kowalska</p>
+                </div>
+                <div>
+                    <p>"Profesjonalne podejście i szybka realizacja. Jestem bardzo zadowolony."</p>
+                    <p>- Jan Nowak</p>
+                </div>
+                <div>
+                    <p>"Dzięki nim zaoszczędziłem na rachunkach za prąd. Świetna inwestycja!"</p>
+                    <p>- Piotr Wiśniewski</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja główna -->
+    <section id="start" class="hero">
+        <div class="hero-content">
+            <h2>Zainwestuj w czystą energię</h2>
+            <p>Zmieniaj świat na lepsze dzięki odnawialnym źródłom energii.</p>
+        </div>
+    </section>
+
     <!-- Stopka -->
-    <footer class="footer">
+    <footer class="footer" style="margin-top: 0;">
         <div class="container">
             <p>&copy; 2024 Czysta Energia. Wszelkie prawa zastrzeżone.</p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: true,
+                autoplaySpeed: 5000
+            });
+
+            $('.gallery').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: false // Disable autoplay
+            });
+
+            $('.partner-logos').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: true,
+                autoplaySpeed: 10000 // Increase the autoplay speed to 40 seconds
+            });
+
+            $('.testimonials-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                autoplay: true,
+                autoplaySpeed: 15000 // Increase the autoplay speed to 15 seconds
+            });
+        });
+    </script>
 </body>
 </html>
